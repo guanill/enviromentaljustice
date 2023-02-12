@@ -1,9 +1,9 @@
 body {
-  background-color: green;
+  background-color: #ADE6B9;
   display: flex;
   justify-content: center;
 }
 
 h1 {
-  align-items: center;
+  font-family: 'Merriweather Sans';
 }
