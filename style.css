@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+
+html {
+  margin:0;
+  font-family: 'Merriweather Sans', sans-serif;
+  scroll-behavior: smooth;
+  background-color:#ADE6B9 ;
+}
+
+img {
+  width: 100%;
+}
+
+.header ul {
+  background-color: #1D3853;
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+  justify-content: center;
+  margin:0;
+  padding: 20px;
+  align-items: center;
+}
+
+.header a{
+  text-decoration: none;
+  color: white;
+}
+
+.header a:hover {
+  color: #ADE6B9;
+}
+
+.header h2 {
+  font-size: 60px;
+  color: white;
+  background-color: #1d385388;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.img {
+  display: flex;
+  background-image: url("images/environmentaljustice.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 650px;
+  justify-content: center;
+  align-items: center;
+}
+
+/***Description Styles***/
+#description {
+  display: flex;
+  justify-content: center;
+}
+
+#description div {
+  width: 75%;
+  background-color: #003E29;
+  border-radius: 20px;
+  padding: 20px 5%;
+  color: #ADE6B9;
+}
+
+#description h2 {
+  text-align: center;
+}
+
+#description p {
+  text-align: justify;
+  line-height: 1.5;
+}
+
+/***Objectives Style***/
+#objectives .row {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0;
+}
+
+#objectives h2 {
+  text-align: center;
+}
+
+#objectives svg {
+  fill: #003E29;
+  height: 90px;
+}
+
+#objectives .goal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+}
+
+#objectives p {
+  text-align: center;
+}
+
+#objectives, #description {
+  padding: 30px 5%;
+}
+
+/***Article Section***/
+#article {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 5%;
+  align-items: center;
+}
+
+#article h2 {
+  text-align: center;
+}
+
+#article img {
+  width: 50%;
+  border-radius: 20px;
+}
+
+#article div {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+#article p {
+  font-size: 20px;
+  text-align: justify;
+  padding: 0 4%;
+}
+
+/***Organization Styles***/
+#organizations {
+  padding: 30px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#organizations img {
+  width: 40%;
+}
+
+/***Ways styles****/
+#ways {
+  padding: 30px 10%;
+}
+
+#ways h2 {
+  font-size: 40px;
+  text-align: center;
+  padding: 80px 0 100px;
+}
+
+
+#ways h4 {
+  background-color: #1D3853;
+  padding: 15px;
+  border-radius: 20px;
+  width: 15%;
+  text-align: center;
+  color: white;
+}
+
+#ways p {
+  text-align: justify;
+}
+
+/****Petition Styles***/
+#petition {
+  padding: 30px 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+#learn {
+  background-color:#003E29 ;
+  color: #ADE6B9;
+  text-align:center;
+}
+
+#learn ul {
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  gap: 30px;
+  justify-content: center;
+  text-align: center;
+}
+
+#learn a {
+  text-decoration: none;
+  color: #ADE6B9;
+  transition: transform .3s;
+}
+
+#learn a:hover {
+  color: white;
+}
+
+#learn a:visited{
+  color:black;
+}
+
+
+
+#learn h5 {
+  padding: 30px;
+  margin:  0;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+  fill: white;
+}
+
+#theme-button {
+  padding: 7px;
+  background-color: white;
+  color:#1D3853;
+}
+
+.petition-container {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 50px;
+  justify-content: space-between;
+}
+
+.petition-para {
+  width: 70%;
+  padding-right: 10px;
+}
+
+.signature {
+  width: 45%;
+  padding-right: 10px;
+}
+
+.error {
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  background:pink;
+}
+
+#petition .button {
+  padding-top: 40px;
+  display: flex;
+}
+
+#sign-now-button {
+  width: 15%;
+  padding: 10px;
+  border-radius: 20px;
+}
