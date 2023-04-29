@@ -28,7 +28,7 @@
  
   </div>
 
-  <section id="description">
+  <section id="description" class="revealable">
     <div>    
       <h2>A Movement for Fairness and Equity</h2>
       <p>Welcome to our Environmental Justice webpage! Our platform is dedicated to raising awareness and promoting action on environmental issues that disproportionately affect marginalized communities.
@@ -38,7 +38,7 @@
     </div>
   </section>
 
-  <section id="objectives">
+  <section id="objectives" class="revealable">
     <h2>Objectives for a fair and sustainable future</h2>
     <div class="row">
       <div class="goal">
@@ -76,7 +76,7 @@
     </div>
   </section>
 
-  <section id="article">
+  <section id="article" class="revealable">
     <h2>Understanding the Need for Fairness and Equity in Environmental Protection</h2>
     <img src="images/article.jpg"/>
     <p>Environmental justice is the concept of ensuring that all individuals and communities, regardless of their race, ethnicity, or socio-economic status, have access to a healthy environment that is free from environmental hazards. Environmental justice seeks to address the disproportionate burden of environmental risks that marginalized communities often face, and to ensure that all individuals have a voice in environmental decision-making processes.
@@ -93,15 +93,15 @@
     </div>
   </section>
 
-  <iframe width="100%" height="500" src="https://www.youtube.com/embed/30xLg2HHg8Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe class="revealable" width="100%" height="500" src="https://www.youtube.com/embed/30xLg2HHg8Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   
-  <section id="organizations">
+  <section id="organizations" class="revealable">
     <h2>Organizations Advocating for Environmental Justice</h2>
     <img src="images/gsf.svg"/>
     <img src="images/weact.png"/>
   </section>
 
-  <section id="ways">
+  <section id="ways" class="revealable">
     <h2>There are many ways you can get involved in the fight...</h2>
     <div class="way">
       <h4>Educate yourself</h4>
@@ -121,7 +121,7 @@
     </div>
   </section>
 
-  <section class="petition" id="petition">
+  <section class="petition revealable" id="petition">
 
     <div>
       <h2>Sign Our Petition 📢</h2>
@@ -156,7 +156,7 @@
   </section>
 
   
-  <img src="images/greenspace.png">
+  <img class="revealable" src="images/greenspace.png">
   <section id="learn">
     <h5>Want to learn more? Visit these websites</h5>
     <ul>
@@ -168,6 +168,19 @@
     </ul>
     <h5>© 2023 Angel Guanill</h5>
   </section>
+ <!-- Modal -->
+  <div id="thanks-modal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div id="modal-text-container">
+        <p id="thanks-modal-content"></p>
+        <button id="modal-button">Close</button>
+      </div>
+      <img id="modal-img" src="images/environmentaljustice.jpeg">
+    </div>
+
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
